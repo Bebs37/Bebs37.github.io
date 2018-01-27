@@ -1,3 +1,20 @@
+@media (max-width: 767px) { 
+  /* CSS для ширины от 576px до 767px */
+    
+    nav a:hover{
+    background-color: rgba(0,0,0,0)!important;
+    }
+    
+    body .col-md-5{
+        text-align: center;
+    }
+    
+    .recent:hover .info{
+    display: inline-block!important;
+    
+    }
+}
+
 @font-face{
     font-family: ballpark;
     src: url(../fonts/ballpark.ttf);
@@ -8,18 +25,12 @@
     padding: 0;
 }
 
-.col-md-3{
-    padding-right: 10px;
-    padding-left: 10px;
-}
-
 a{
     text-decoration: none;
-    
 }
 
-.ul{
-    : none;
+li{
+    text-align: right;
 }
 
 a:hover{
@@ -223,9 +234,7 @@ form{
 }
 
 .widget-block{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 12px;
+    display: inline-block;
 }
 
 .bottom-footer{
